@@ -17,5 +17,5 @@ precmd () { vcs_info }
 RPROMPT=$RPROMPT'${vcs_info_msg_0_}'
 
 # aliases
-alias la='ls -AFG'
-alias ll='ls -AFGl'
+alias la='ls -AF'
+alias ll='ls -AFl'
